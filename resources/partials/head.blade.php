@@ -1,7 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/10/27
- * Time: 下午 06:46
- */
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
+<script type="text/javascript" src="{{ asset('js/jquery.min.js') }} "></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
