@@ -87,3 +87,7 @@ Route::group(['prefix'=>'student'],function(){
 //新增路由'Cool'
 Route::get('cool','Cool\TestController@index');
 
+//修改路由'cool'，使之加入namespace路由'Cool'當中
+Route::group(['namespace'=>'Cool'],function (){
+    Route::get('cool','TestController@index');
+});
