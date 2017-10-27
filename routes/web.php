@@ -84,3 +84,6 @@ Route::group(['prefix'=>'student'],function(){
     ])->where(['subject'=>'chinese | english | math']);
 });
 
+//新增路由'Cool'
+Route::get('cool','Cool\TestController@index');
+
