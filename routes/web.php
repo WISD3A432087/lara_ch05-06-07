@@ -89,5 +89,8 @@ Route::get('cool','Cool\TestController@index');
 
 //修改路由'cool'，使之加入namespace路由'Cool'當中
 Route::group(['namespace'=>'Cool'],function (){
-    Route::get('cool','TestController@index');
+Route::get('cool','TestController@index');
 });
+
+//增加路由'/board'，使之可執行BoardController的getIndex方法
+Route::get('/board', 'BoardController@getIndex');
